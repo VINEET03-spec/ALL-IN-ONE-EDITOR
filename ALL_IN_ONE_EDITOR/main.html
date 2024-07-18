@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            VANTA.NET({
+                el: "#wrapper",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0x8919a0,
+                backgroundColor: 0x0,
+                maxDistance: 22.00
+            })
+        });
+        </script>
+        <title>File Compressor</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <style type="text/css">
+            html, body {
+                height: 100%;
+                margin: 0;
+                font-family: 'Oswald', sans-serif;
+            }
+            #wrapper {
+                min-height: 100%;
+            }
+            .heading{
+                font-family: 'Kalam', cursive;
+            }
+            .bton{
+                font-weight:600;
+                font-size: 16px;
+                background: white;
+                color: #00B786;
+                border:transparent;
+                padding: 8px 25px;
+                transition: transform 0.5s;
+
+            }
+            .bton:hover{
+                font-weight:600;
+                cursor:pointer;
+                background:transparent;
+                color:white;
+                text-decoration:none;
+                transform: translateY(-8px);
+            }
+        </style>
+    </head>
+
+    <body style="background-color: black; align-items: center; margin-top:-30px;">
+        <div style="color: #00B786; text-align:center;" id="wrapper">
+            <h1 style="font-size: 44px; font-weight:700; padding-top: 80px; margin-bottom: 60px;">ALL IN ONE EDITOR</h1>
+            <h1 style="color:#A5630D; font-weight:700; font-size: 64px; margin-top:-10px;"><i><a href="./Image Editor/index.html" style="color: #A5630D;">IMAGE EDITOR</a></i></h1>
+            <h1 style="color:#A5630D; font-weight:700; font-size: 64px; margin-top:-10px;"><i><a href="./Notepad/index.html" style="color: #A5630D;">TEXT EDITOR</a></i></h1>
+            <h1 style="color:#A5630D; font-weight:700; font-size: 64px; margin-top:-10px;"><i><a href="./Text_Compresser/index.html" style="color: #A5630D;">TEXT COMPRESSOR</a></i></h1>
+            <h1 style="color:#A5630D; font-weight:700; font-size: 64px; margin-top:-10px;"><i><a href="./compress-image(not my project)/index.html" style="color: #A5630D;">IMAGE COMPRESSOR</a></i></h1>
+        </div>
+    </body>
+</html>
