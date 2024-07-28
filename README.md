@@ -1,1 +1,1 @@
-Readme is in each individual folder.
+I made the lossless text compressor using Huffamn coding.
