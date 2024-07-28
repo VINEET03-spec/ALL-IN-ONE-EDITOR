@@ -1,1 +1,1 @@
-Readme is in the folder of each individual folder.
+Readme is in each individual folder.
